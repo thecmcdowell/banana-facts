@@ -12,3 +12,5 @@ const bananaFacts = [
         fact: '🍌The banana is actually classified as a berry 🍌'
     }
 ]
+
+export default bananaFacts

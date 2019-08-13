@@ -4,7 +4,8 @@
   "description": "Hit this endpoint for all your banana fact needs",
   "main": "app.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "node_modules/.bin/nodemon app.js --exec babel-node --"
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,8 @@
     "babel-cli": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
   }
 }
