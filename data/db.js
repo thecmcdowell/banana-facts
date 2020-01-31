@@ -47,7 +47,10 @@ const bananaFacts = [
         id: 11,
         fact: '🍌Humans share roughly 60% of their DNA with bananas 🍌'
     },
-
+    {
+        id: 12,
+        fact: '🍌Bananas can be found in other colors, including red 🍌'
+    },
 ]
 
 export default bananaFacts
